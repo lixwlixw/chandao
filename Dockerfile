@@ -8,4 +8,4 @@ WORKDIR /opt/zbox
 EXPOSE 80
 
 ENV SERVICE_NAME=zentao
-CMD  tail -f
+CMD  ./zbox start && tail -f
