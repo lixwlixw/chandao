@@ -8,4 +8,4 @@ WORKDIR /opt/zbox
 EXPOSE 80
 
 ENV SERVICE_NAME=zentao
-CMD  > /opt/zbox/tmp/apache/httpd.pid && ./zbox stop && ./zbox start && tail -f
+CMD "> /opt/zbox/tmp/apache/httpd.pid" && ./zbox stop && ./zbox start && tail -f
